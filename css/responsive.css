@@ -1,0 +1,396 @@
+/*Most of the Smartphones Mobiles (Portrait)*/
+
+@media (min-width: 320px) and (max-width: 480px){
+  .menu .navbar-light .navbar-nav .nav-item .nav-link.active, .menu .navbar-light .navbar-nav .nav-item .nav-link:hover {
+    background-image: url("../images/bar.png");
+    background-position: left bottom;
+        background-position-x: left;
+        background-position-y: bottom;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+.navbar-toggler .fa{
+  color: #ffff;
+}
+.banner h1 {
+    font-size: 31px;
+    font-weight: 400;
+    line-height: 45px;
+    color: #ffff;
+    margin-bottom: 20px;
+}
+.banner h5 {
+    font-size: 13px;
+    line-height: 18px;
+    color: #008ed6;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 17px;
+}
+.banner p {
+    font-size: 10px;
+    line-height: 20px;
+    font-weight: 500;
+    color: #999999;
+    margin-bottom: 8px;
+  }
+  .inner-btn .btn-info {
+   padding: 15px 28px;
+   font-size: 9px;
+ }
+.inner-btn .btn-primary{
+  padding: 15px 28px;
+  font-size: 9px;
+}
+.banner {
+  width: 100%;
+  padding: 80px 0px 50px;
+  }
+  .feature h5 {
+  font-size: 12px;
+}
+.feature h1{
+  font-size: 25px;
+}
+.overview .feature {
+  padding: 30px 0px;
+}
+.overview .inner-content{
+ border: none;
+}
+.overview .row{
+  --bs-gutter-x: -0.5rem;
+}
+.inner-content .icon {
+    width: 110px;
+    height: 110px;
+    line-height: 110px;
+    border: 1px solid #eee;
+    border-radius: 100%;
+    margin: 14px auto;
+  }
+.inner-content h4 {
+  padding: 10px 0px;
+  margin: 10px auto;
+  border: none;
+}
+.device-section{
+  padding: 20px 0px;
+}
+.device-section .detail {
+    margin-top: 0;
+    margin-bottom: -4rem;
+}
+.customize-section .feature h5{
+  margin-top: -100px;
+}
+.theme{
+  padding: 25px 0px;
+}
+.theme-text h4{
+  font-size: 14px;
+}
+.theme-button .btn{
+  font-size: 10px;
+  margin-top: 25px;
+  padding: 8px 10px;
+}
+.mb3 .btn{
+  line-height: 1;
+}
+.price .inner-content{
+  width: 100%;
+}
+
+.main-form .btn{
+  font-size: 12px;
+  padding: 8px 28px;
+}
+.icons ul li .fa {
+  font-size: 17px;
+  margin-left: 8px;
+}
+.icons ul{
+  margin-right: 20px
+}
+.icons .copy {
+  font-size: 12px;
+  color: #444348;
+  margin-left: 27px;
+}
+}
+
+/*Low Resolution Tablets, Mobiles (Landscape)*/
+@media (min-width: 481px) and (max-width: 767px){
+  .menu .navbar-light .navbar-nav .nav-item .nav-link.active, .menu .navbar-light .navbar-nav .nav-item .nav-link:hover {
+    background-image: url("../images/bar.png");
+    background-position: left bottom;
+    background-position-x: left;
+    background-position-y: bottom;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+.navbar-toggler .fa{
+  color: #ffff;
+}
+.banner {
+  width: 100%;
+  padding: 34px 0px 60px;
+}
+.banner h1{
+  font-size: 44px;
+  font-weight: 400;
+  line-height: 54px;
+  color: #ffff;
+  margin-bottom: 27px;
+}
+.banner p{
+  font-size: 15px;
+  line-height: 25px;
+  font-weight: 500;
+  color: #999999;
+  margin-bottom: 6px;
+}
+.inner-btn .btn-primary{
+  padding: 10px 20px;
+}
+.inner-btn .btn-info{
+ padding: 10px 20px;
+}
+.overview .feature {
+  padding: 43px 0px;
+}
+.overview .inner-content{
+  padding: 0px 0px 20px;
+  border: none;
+}
+.overview .inner-content h4{
+  border: none;
+}
+.overview .row{
+  --bs-gutter-x: -0.5rem;
+}
+.device-section ul{
+  margin-bottom: -5rem;
+}
+.device-section .feature{
+  padding: 50px 0px;
+}
+.customize-section{
+  padding: 40px 0px;
+}
+.customize-section .feature{
+  padding: 19px 0px;
+}
+.theme{
+  padding: 50px 0px;
+}
+.theme-text h4{
+  font-size: 22px;
+  margin-bottom: 30px;
+}
+.price{
+  padding: 46px 0px;
+}
+.price .feature{
+  padding: 0px 0px 40px;
+}
+.price .inner-content{
+  width: 87%;
+}
+.price .row{
+  --bs-gutter-x: -4.5rem;
+}
+.form-control{
+  margin-bottom: 22px;
+}
+.main-form .btn{
+  padding: 8px 15px;
+}
+.icons ul{
+  margin-right: 40px;
+}
+.icons ul li .fa{
+  font-size: 22px;
+}
+.icons .copy{
+  margin-left: 15px;
+  font-size: 18px;
+}
+}
+
+
+/*##Device = Tablets, Ipads (portrait)*/
+@media (min-width: 768px) and (max-width: 1024px){
+  .menu .navbar-light .navbar-nav .nav-item .nav-link.active, .menu .navbar-light .navbar-nav .nav-item .nav-link:hover {
+    background-image: url("../images/bar.png");
+    background-position: left bottom;
+    background-position-x: left;
+    background-position-y: bottom;
+    background-repeat: no-repeat;
+    background-size: auto;
+  }
+  .navbar-toggler .fa{
+    color: #ffff;
+  }
+  .banner {
+    width: 100%;
+    padding: 40px 0px 60px;
+}
+.banner p {
+    font-size: 19px;
+    margin-bottom: 30px;
+  }
+.overview .feature h5 {
+      font-size: 19px;
+}
+.overview .feature h1 {
+    margin-bottom: 15px;
+    font-size: 40px
+  }
+.overview .inner-content h4{
+  font-size: 44px;
+}
+.overview .inner-content p{
+  font-size: 20px;
+}
+.overview .inner-content{
+  padding-bottom: 20px;
+}
+.overview .inner-content{
+  width: 85%;
+}
+.overview .row{
+  --bs-gutter-x: -6.5rem;
+}
+.device-section .feature h5 {
+      font-size: 19px;
+}
+.device-section .feature h1 {
+    margin-bottom: 15px;
+    font-size: 40px
+  }
+.device-section .feature p{
+  font-size: 18px;
+}
+.device-section .feature .detail li{
+  font-size: 20px;
+}
+.device-section ul{
+  margin-bottom: -5rem;
+}
+.customize-section {
+    width: 100%;
+    padding: 32px 0px;
+    background: #f2f2f2;
+  }
+  .customize-section .feature h5 {
+        font-size: 19px;
+  }
+  .customize-section .feature h1 {
+      margin-bottom: 15px;
+      font-size: 40px
+    }
+.customize-section .feature{
+  padding: 40px 0px;
+}
+.theme-text h4{
+  margin-bottom: 40px;
+}
+.price .feature{
+  padding-bottom: 40px;
+}
+.price .feature h5 {
+      font-size: 19px;
+}
+.price .feature h1 {
+    margin-bottom: 15px;
+    font-size: 40px
+  }
+.price .inner-content h4{
+  font-size: 45px;
+}
+.price .inner-content h1{
+  font-size: 86px;
+}
+.price .inner-content .month p{
+  font-size: 30px;
+}
+.price .last-b p {
+    margin-top: 0px;
+    font-weight: 500;
+    font-size: 23px;
+  }
+.price .last-b .btn {
+   font-size: 20px;
+ }
+ .contact .feature h5 {
+       font-size: 19px;
+ }
+ .contact .feature h1 {
+     margin-bottom: 15px;
+     font-size: 40px
+   }
+.contact .feature{
+  padding-bottom: 40px;
+}
+.contact .info{
+  font-size: 21px;
+}
+.contact .info .fa{
+  font-size: 43px;
+  margin-top: 30px;
+}
+.footer .icons ul{
+  margin-right: 60px;
+}
+.footer .copy{
+  margin-left: 0px;
+}
+}
+
+/* ##Screen = B/w 1025px to 1280px*/
+@media (min-width: 1025px) and (max-width: 1280px){
+  .banner h5 {
+    font-size: 20px;
+  }
+  .banner h1 {
+    font-size: 63px;
+    line-height: 73px;
+  }
+  .banner p {
+    font-size: 28px;
+  }
+  .inner-btn .btn-primary{
+    font-size: 20px;
+  }
+  .inner-btn .btn-info{
+    font-size: 20px;
+  }
+  .banner{
+    padding: 80px 0px 80px;
+  }
+.overview .feature h5 {
+    font-size: 20px;
+  }
+  .overview .inner-content h4 {
+    padding: 20px 0px;
+    font-size: 25px;
+  }
+  .device-section ul{
+    margin-bottom: -5rem;
+  }
+  .device-section .feature {
+    width: 100%;
+    padding: 38px 0px;
+  }
+  .device-section .feature p {
+    margin: 25px 0px;
+    color: #c2c2c2;
+    font-size: 16px;
+  }
+  .device-section .detail li{
+    font-size: 20px;
+  }
+}

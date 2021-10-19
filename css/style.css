@@ -1,0 +1,438 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+body{
+  font-family: Source Sans Pro;
+}
+a, a:hover{
+  text-decoration: none;
+}
+/******************************************************************************************************************************header section code starts here*******************************/
+.header-section{
+  width: 100%;
+  background-image: url("../images/home.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+/*menu code starts here*/
+.menu{
+  width: 100%;
+}
+.menu .bg-light{
+  background-color: transparent !important;
+}
+.menu .navbar-light .navbar-nav .nav-item .nav-link{
+  color: #ffff;
+  font-size: 16px;
+  font-weight: 500;
+  margin-left: 12px;
+}
+.menu .navbar-light .navbar-nav .nav-item .nav-link.active, .menu .navbar-light .navbar-nav .nav-item .nav-link:hover{
+  background-image: url("../images/bar.png");
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+/*menu code ends here*/
+
+/*banner code starts here*/
+.banner{
+  width: 100%;
+  padding: 80px 0px 250px;;
+}
+
+.banner h5{
+  font-size: 16px;
+  line-height: 26px;
+  color: #008ed6;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+}
+.banner h1{
+  font-size: 55px;
+  font-weight: 400;
+  line-height: 65px;
+  color: #ffff;
+  margin-bottom: 40px;
+}
+.banner p{
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 500;
+  color: #999999;
+  margin-bottom: 60px;
+}
+.inner-btn{
+  width: 100%;
+  padding: 40px 0px 0px;
+}
+.inner-btn .btn-primary{
+  padding: 12px 25px;
+  text-transform: uppercase;
+  background: #008ed6;
+  margin-right: 25px;
+  transition: 1s;
+}
+.inner-btn .btn-primary:hover{
+  background: transparent;
+  border: 1px solid #eeee;
+  color: #ffff;
+}
+.inner-btn .btn-info{
+  padding: 12px 25px;
+  background: transparent;
+  border: 1px solid #eeee;
+  text-transform: uppercase;
+  color: #ffff;
+  transition: 1s;
+}
+.inner-btn .btn-info:hover{
+  background: #008ed6;
+  border: 1px solid #008ed6;
+  color: #fff;
+}
+/*banner code ends here*/
+
+/*****************************************************************************************************************************header section code ends here*******************************/
+
+
+/*****************************************************************************************************************************overview section code starts here*******************************/
+.overview{
+  width: 100%;
+  padding-bottom: 40px;
+  border-bottom: 1px solid #eee;
+}
+.overview .feature{
+  width: 100%;
+  padding: 80px 0px;
+  text-align: center;
+}
+.feature h5{
+  font-size: 14px;
+  color: #008ed6;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+  letter-spacing: 2px;
+}
+.feature h1{
+  margin-bottom: 15px;
+}
+.overview .inner-content{
+  width: 100%;
+  padding: 0px 0px 40px;
+  justify-content: center;
+  text-align: center;
+}
+.inner-content .icon{
+  width: 110px;
+  height: 110px;
+  line-height: 110px;
+  border: 1px solid #eee;
+  border-radius: 100%;
+  margin: 20px auto;
+}
+.inner-content h4{
+  font-weight: 400;
+  padding: 0px;
+}
+.inner-content p{
+  margin-top: 20px;
+  color: #c2c2c2;
+}
+/*****************************************************************************************************************************overview section code ends here*******************************/
+
+/*****************************************************************************************************************************devices section code starts here*******************************/
+.device-section{
+  width: 100%;
+  padding: 80px 0px;
+}
+.iphone{
+  width: 100%;
+  text-align: center;
+}
+.feature{
+  width: 100%;
+  padding: 80px 0px
+}
+.feature h5{
+  font-size: 14px;
+  color: #008ed6;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+  letter-spacing: 2px;
+}
+.feature p{
+  margin: 25px 0px;
+  color: #c2c2c2;
+}
+.feature .detail{
+  width: 100%;
+  padding: 0px
+}
+.feature .detail li{
+  list-style-type: none;
+  margin: 10px 0px;
+  color: #4f4f4f;
+  font-weight: 500;
+}
+.feature li .fa{
+  color: #008ed6;
+  margin-right: 10px;
+}
+.feature li span{
+  margin-left: 5px;
+}
+/*****************************************************************************************************************************devices section code ends here*******************************/
+
+/*****************************************************************************************************************************customize section code starts here*******************************/
+.customize-section{
+  width: 100%;
+  padding: 80px 0px;
+  background: #f2f2f2;
+}
+.customize-section .feature{
+  justify-content: center;
+}
+/*****************************************************************************************************************************customize section code ends here*******************************/
+
+/*****************************************************************************************************************************plan section code starts here*******************************/
+.plan{
+  width: 100%;
+  padding: 80px 0px;
+  background-image: url("../images/price.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.plan .feature{
+  text-align: center;
+  color: #ffff;
+  padding: 0px 0px 80px;
+}
+.plan .owl-theme .item h4{
+  font-size: 20px;
+  color: #ffff;
+  font-style: italic;
+  margin-bottom: 50px;
+}
+.plan .owl-theme .item img{
+  width: 75px;
+}
+.plan .owl-theme .item h5{
+  color: #fff;
+  font-weight: 300;
+  font-size: 16px;
+  margin-left: 10px;
+}
+.plan .owl-theme .item p{
+  color: #ffff;
+  margin-left: 10px;
+}
+.owl-dot{
+  margin-top: 80px;
+}
+/*****************************************************************************************************************************plan section code ends here*******************************/
+
+
+/*****************************************************************************************************************************theme section code starts here*******************************/
+.theme{
+  width: 100%;
+  padding: 80px 0px;
+  background-color: black;
+}
+.theme-text{
+  text-align: center;
+}
+.theme-text h4{
+  font-size: 30px;
+  color: #ffff;
+}
+.theme-button{
+  text-align: center;
+}
+.theme-button .btn{
+  padding: 12px 15px;
+  border-radius: 5px;
+  text-transform: uppercase;
+  margin-left: 15px;
+  font-size: 14px;
+  transition: 1s;
+}
+.theme-button .btn-danger{
+  background: transparent;
+  border: 1px solid #eeee;
+}
+.theme-button .btn-danger:hover{
+  background: #0B5ED7;
+  border: 1px solid #0B5ED7;
+}
+.theme-button .btn-primary:hover{
+  background: transparent;
+  border: 1px solid #eeee;
+}
+/*****************************************************************************************************************************theme section code ends here*******************************/
+
+/*****************************************************************************************************************************price section code starts here*******************************/
+.price{
+  width: 100%;
+  padding: 80px;
+}
+.price .feature{
+  padding: 0px 0px 80px;
+  text-align: center;
+}
+.inner-content{
+  width: 100%;
+  border: 2px solid #eee;
+  text-align: center;
+}
+.inner-content h4{
+  padding: 20px 0px;
+  font-size: 30px;
+  font-weight: 700;
+  margin: 0 auto;
+  border-bottom: 2px solid #eee;
+}
+.inner-content .month{
+  padding: 20px 0px;
+  border-bottom: 2px solid #eee;
+  transition: 1s;
+}
+.inner-content .month:hover{
+  background: #0B5ED7;
+  color: #ffff;
+}
+.inner-content .month h1{
+  font-size: 60px;
+  font-weight: 700;
+}
+
+.inner-content .month sup{
+  position: relative;
+  font-size: .45em;
+  line-height: 0;
+  vertical-align: baseline;
+  top: -.9em
+}
+.inner-content .month p{
+  margin-top: -10px;
+}
+.inner-content span{
+  color: #0B5ED7;
+  font-weight: 500;
+}
+.inner-content .last-b{
+  width: 100%;
+  padding: 30px 0px;
+}
+.last-b p{
+  margin-top: 0px;
+  font-weight: 500;
+}
+.last-b .btn{
+  padding: 10px 30px;
+  margin-top: 15px;
+  text-transform: uppercase;
+  background: transparent;
+  border: 2px solid #eee;
+  color: #0B5ED7;
+  font-weight: 700;
+  border-radius: 5px;
+  transition: 1s;
+}
+.last-b .btn:hover{
+  background: #0B5ED7;
+  color: #ffff;
+}
+/*****************************************************************************************************************************price section code ends here*******************************/
+
+/*****************************************************************************************************************************contact section code starts here*******************************/
+.contact{
+  width: 100%;
+  padding: 80px 0px;
+  background: #ededed;
+}
+.contact .feature{
+  text-align: center;
+  padding: 0px 0px 80px;
+}
+.contact .info{
+  width: 100%;
+  text-align: center;
+}
+.info .fa{
+  color: #0B5ED7;
+  margin-bottom: 30px;
+  font-size: 25px;
+}
+.info p{
+  color: #acacac;
+}
+
+.main-form{
+  width: 100%;
+  padding: 60px 80px;
+  background: black;
+  margin-top: 40px;
+  position: relative;
+  z-index: 1;
+  margin-bottom: -150px;
+}
+.main-form .form-control{
+  background: transparent;
+  border: 1px solid #999;
+  margin-bottom: 10px;
+  color: #999;
+  background-clip: padding-box;
+}
+.main-form .but{
+  text-align: right;
+}
+.main-form .btn{
+  padding: 8px 25px;
+  border-radius: 5px;
+  transition: 1s;
+}
+.main-form .btn:hover{
+  color: #0B5ED7;
+  background: transparent;
+  border: 2px solid #0B5ED7;
+  outline: none;
+}
+/*****************************************************************************************************************************contact section code ends here*******************************/
+
+/*****************************************************************************************************************************footer section code starts here*******************************/
+.footer{
+  width: 100%;
+  padding: 80px 0px;
+  background: black;
+}
+.icons{
+  width: 100%;
+  text-align: center;
+}
+.icons ul li{
+  display: inline-block;
+  list-style-type: none;
+}
+.icons ul li .fa{
+  font-size: 35px;
+  margin-left: 30px;
+  color: #444348;
+  transition: 1s;
+}
+.icons .copy{
+  font-size: 22px;
+  color: #444348;
+  margin-left: 60px;
+}
+.icons ul li .fa:hover{
+  color: #0B5ED7;
+}
+/*****************************************************************************************************************************footer section code ends here*******************************/
